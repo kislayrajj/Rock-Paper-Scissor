@@ -32,6 +32,7 @@ const showWinner = (userWin, userChoice, compChoice ) => {
     compScore++
     compScorePara.innerText = compScore;
     console.log("You Loose");
+    // msg.innerText = `You Loose ! ${userChoice} beats Your ${compChoice}`;
     msg.innerText = `You loose ! ${compChoice} beats Your ${userChoice}. Looseerrrrrrrr!! Mona is a Looser 😀`;
     msg.style.backgroundColor = "Red";
   }
